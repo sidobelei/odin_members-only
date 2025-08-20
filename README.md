@@ -1,24 +1,5 @@
-# README
+# members-only
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project was to create a simple website in Rails that would display posts. The viability of the author of each post would only be displayed when you were logged in.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The purpose of this project was to practice implementing authentication systems so that users would gain access to certain parts of the site. The Devise gem was used. 
