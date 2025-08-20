@@ -1,0 +1,32 @@
+<head>
+    <style>
+        .header {
+            text-align: right;
+            padding-right: 15px;
+        }
+        .title {
+            text-align: center;
+        }
+        .post-form {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <%= link_to "Home", root_path %><br />
+    </div>
+    
+    <h1 class="title">Members Only!</h1> 
+    
+    <div class="post-form">
+        <%= form_with model: @post do |form| %>
+            <div>
+                <%= form.label :post_text %></br>
+                <%= form.text_area :post_text %>
+            </div>
+            <%= form.submit %>
+        <% end %>
+    </div>
+</body>
